@@ -1,0 +1,94 @@
+/*
+*
+* login.css
+* Jordan Webber
+* 000803303
+* December 12, 2020
+* Statement of Authorship: I, Jordan Webber, 000803303 certify that this material is my original work.  
+* No other person's work has been used without due acknowledgement.
+*
+* The CSS that creates all the styles for the login and signup pages
+*
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(65deg, lightblue 50%, lavender 50%);
+    min-height: 1000px;
+    font-family: 'helvetica neue';
+}
+
+header {
+    width: 700px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+form {
+    text-align: center;
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: lightblue;
+    padding: 5px;
+    border: solid black 1px;
+}
+
+a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.loginButton {
+    width: 79%;
+    border: solid black 1px;
+    background-color: lightblue;
+    color: black;
+    font-size: 30px;
+    padding: 6px;
+    margin: 10px;
+}
+
+.loginButton:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+.loginInfo {
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: solid black 1px;
+    font-size: 20px;
+    font-weight: 200;
+    width: 313px;
+}
+
+#newUser {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    color: black;
+}

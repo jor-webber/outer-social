@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+    signup.html
+    Jordan Webber
+    000803303
+    December 7, 2020
+    Statement of Authorship: I, Jordan Webber, 000803303 certify that this material is my original work.  
+    No other person's work has been used without due acknowledgement.
+
+    This file is a simple form that allows the user to create a user name
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/signup.js"></script>
+    <title>Outer Social</title>
+    
+</head>
+
+<body>
+    <header>
+        <h1>OUTER SOCIAL</h1>
+        <h2>Please enter your information below:</h2>
+    </header>
+    <form action="signup.html">
+        <input class="loginInfo" type="text" name="username" id="username" placeholder="Username" max="50" required>
+        <input class="loginInfo" type="password" name="password" id="password" placeholder="Password (Min length 6 characters)" required>
+        <input class="loginInfo" type="email" name="email" id="email" placeholder="E-mail" max="100" required>
+        <input class="loginInfo" type="number" name="age" id="age" placeholder="Age (Optional)" min="1" max="100">
+        <input class="loginButton" type="button" value="Sign Up!" id="signup">
+        <p><a href="index.php">click here</a> to back</p>
+    </form>
+
+    <h2 id="newUser"></h2>
+</body>
+
+</html>

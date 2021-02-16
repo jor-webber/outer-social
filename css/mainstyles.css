@@ -1,0 +1,201 @@
+/*
+* mainstyles.css
+* Jordan Webber
+* 000803303
+* December 10, 2020
+*
+* Statement of Authorship: I, Jordan Webber, 000803303 certify that this material is my original work.  
+* No other person's work has been used without due acknowledgement.
+* 
+* This is the style sheet that has all the styles for the pages after the user
+* has logged in.
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lavender
+}
+
+/* Navigation css */
+nav {
+    display: block;
+    background-color: lightblue;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav input {
+    font-size: 20px;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin-right: 15px;
+    font-size: 20px;
+
+}
+
+li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+li a:active {
+    background-color: red;
+    color: white;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 60px;
+}
+
+/* Main Css */
+main {
+    position: relative;
+    width: 700px;
+    margin: auto;
+}
+
+form {
+    margin-top: 10px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.formTitle {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+fieldset {
+    margin: 0;
+    padding: 10px;
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+
+textarea {
+    font-size: 16px;
+    width: 400px;
+    height: 140px;
+}
+
+form input[type="submit"] {
+    text-align: left;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    width: 99%;
+    margin: 3px;
+    text-align: center;
+}
+
+#postContainer {
+    margin: 10px 0;
+}
+
+.button {
+    background-color: lightblue;
+    border: solid black 1px;
+    border-radius: 25px;
+    color: black;
+}
+
+.button:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.button:active {
+    background-color: red;
+    color: white;
+}
+
+.post {
+    background-color: white;
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.postContent {
+    font-size: 16px;
+}
+
+.links {
+    padding: 10px;
+    margin-right: 0;
+
+}
+
+main a {
+    height: 10px;
+    width: 50px;
+    line-height: 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 0;
+    text-decoration: none;
+}
+
+/* Account Page styles */
+
+#accountForm {
+    margin-bottom: 10px;
+    background-color: lavender;
+}
+
+#accountForm fieldset {
+    padding: 15px;
+}
+
+#accountForm label {
+    clear: left;
+    float: left;
+    margin: 15px;
+}
+
+#accountForm input {
+    float: left;
+    padding-right: 15px;
+    margin: 16px;
+}
+
+/* Update Post Page Styles */
+
+#updatePostForm {
+    margin-bottom: 10px;
+}
+
+/* Footer css */
+footer {
+    text-align: center;
+    background-color: lightblue;
+    padding: 10px;
+}
