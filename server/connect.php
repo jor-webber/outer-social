@@ -9,9 +9,9 @@
  */
 try {
     $dbh = new PDO(
-        "mysql:host=localhost;dbname=000803303",
-        "000803303",
-        "19940306"
+        "mysql:host=localhost;dbname=dbname",
+        "root",
+        ""
     );
 } catch (Exception $e) {
     die("ERROR: Couldn't connect. {$e->getMessage()}");
